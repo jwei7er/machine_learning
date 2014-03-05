@@ -1,3 +1,6 @@
+Instructions for running nb.py
+==============================
+
 #########################################
 # Readme instructions for running nb.py #
 #                                       #
