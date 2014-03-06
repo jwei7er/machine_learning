@@ -17,9 +17,9 @@ Instructions for running nb.py
 
     d. Additional optional arguments can be provided after the 4 arguments listed above:
 
-      * "trainLimit=#" - without quotation marks and replacing # with an integer number. This limits the training to the specified amount of rows given or the entire size of the training file, whichever is less.
+      * *trainLimit=#* - Replace the # with an integer number. This limits the training to the specified amount of rows given or the entire size of the training file, whichever is less.
 
-      * "showTestProb" - without quotation marks. This turns on printing each of the test data probabilities.
+      * *showTestProb* - This turns on printing each of the test data probabilities.
 
       An example command line containing both of these additional optional arguments would be:
 
