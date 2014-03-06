@@ -86,7 +86,7 @@ def FindBestGain(path_tuple):
     max_gain = 0
     temp_bucket = dict()
     
-    # spin through each row in the training file and throw out rows that don't match the path tuple
+    # Spin through each row in the training file and throw out rows that don't match the path tuple
     for row in _training_file_data:
         skip = False
         split_row = row.split(",")
@@ -290,13 +290,13 @@ if __name__ == "__main__":
     """
     ParseInputArguments()
 
-    # Load first line attributes into global dictionary """
+    # Load first line attributes into global dictionary
     LoadAttributeDict()
     
-    # Store the file data to use later """
+    # Store the file data to use later
     StoreFileData()
     
-    # Train and test the accuracy of the decision tree """
+    # Train and test the accuracy of the decision tree
     TestData(TrainData())
     
     CloseFiles()
